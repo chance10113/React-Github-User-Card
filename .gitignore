@@ -1,2 +1,9 @@
 my-app/node_modules/@babel/code-frame/LICENSE
 my-app/package-lock.json
+node_modules/@babel/code-frame/LICENSE
+node_modules/@babel/helper-module-imports/LICENSE
+node_modules/@babel/helper-validator-identifier/LICENSE
+node_modules/@babel/highlight/LICENSE
+node_modules/.bin/jsesc.cmd
+node_modules/.bin/jsesc.ps1
+node_modules/.bin/jsesc
