@@ -55,6 +55,23 @@ class App extends React.Component {
         <p>Bio: {this.state.userCard.bio}</p>
           </div>
         </div>
+        <h2>Followers</h2>
+        <div className="followers">
+          {this.state.followers.map((follower) => (
+             <div className="UserCard">
+             <img src={follower.avatar_url} alt="Avatar"  />
+               <div className="cardInfo">
+             <h3>{follower.name}</h3>
+             <p>{follower.login}</p>
+             <p>{follower.location}</p>
+             <p>Profile: <a href={follower.html_url}>{follower.html_url}</a></p>
+             <p>Followers: {follower.followers}</p>
+             <p>Following: {follower.following}</p>
+             <p>Bio: {follower.bio}</p>
+               </div>
+             </div>
+          ))}
+        </div>
       </div>
     );
   }
